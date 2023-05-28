@@ -30,8 +30,11 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-// Server folder contains all backend functionalities.
+## Server folder contains all backend functionalities.
 
 This app used mongoDB to save all the input and output for Question 2, run the server in parellel with UI files,
 Goto server folder and run below command.
 ## `npm start`
+
+Runs the app in the development mode.\
+Server runs in port 5000 [http://localhost:5000].
