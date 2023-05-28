@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.form-wrapper {
+  max-width: 75%;
+  margin: 5% 25%;
+}
+
+.input-field {
+  width: 100%;
+}
