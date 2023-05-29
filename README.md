@@ -38,3 +38,11 @@ Goto server folder and run below command.
 
 Runs the app in the development mode.\
 Server runs in port 5000 [http://localhost:5000].
+
+## __test__ folder contains all test suites.
+
+This app uses @testing-library/jest-dom to create and run unit test cases for all the componets, to run the test suites ,
+execute the below command in root directory. It will show the test results with code coverage.
+## `npm test`
+
+Note: Only modified test.js file will be executed.
