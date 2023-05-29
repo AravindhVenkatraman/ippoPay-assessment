@@ -83,7 +83,7 @@ const Question2 = () => {
       }).then((response) => {
         setShowSnackBar(true);
       }).catch((error) => {
-        console.log(error);
+        return error;
       });
 
       return output;
@@ -105,6 +105,7 @@ const Question2 = () => {
 			style={{ marginTop: "2%"}}
       onClick={() => setOutput(minimizeArrayAbsSumDifference)}
       disabled={!input}
+      data-testid="show-output"
 		>
 			Show Output
 		</Button>
@@ -123,6 +124,7 @@ const Question2 = () => {
       variant="contained"
       style={{ marginTop: "2%"}}
       onClick={() => window.open(`${baseURL}/get`, "_blank")}
+      data-testid="show-all-input-output"
     >
       Show All Input & Output
     </Button>
