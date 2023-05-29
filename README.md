@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Fisrt run `npm install` to download all npm packages and then run
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -34,6 +35,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This app used mongoDB to save all the input and output for Question 2, run the server in parellel with UI files,
 Goto server folder and run below command.
+
+### Fisrt run `npm install` to download all npm packages and then run
 ## `npm start`
 
 Runs the app in the development mode.\
