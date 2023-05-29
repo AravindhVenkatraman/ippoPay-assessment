@@ -20,6 +20,7 @@ const Question1 = () => {
     calculateMinimumSteps(password);
   }
 
+  // check if the password has three repeating characters
   const isCharsRepeatingThrice = (password) => {
     let isCharRepeatingThrice = false;
     if(!password) return isCharRepeatingThrice;
@@ -30,6 +31,7 @@ const Question1 = () => {
     return isCharRepeatingThrice;
   }
 
+  // calculate the minimum steps requires to make the password stronger
   const calculateMinimumSteps = (password) => {
     let length = password.length;
     let steps = 0;

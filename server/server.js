@@ -1,6 +1,7 @@
 // To connect with your mongoDB database
 const mongoose = require('mongoose');
 
+// TODO this can be moved to .env for security reasons. Added here for demo purpose.
 mongoose.connect('mongodb+srv://admin:2qilMZkDxHMaMSGH@ippopay.qyg3e8r.mongodb.net/Ippopay?retryWrites=true&w=majority', {
  dbName: 'Ippopay',
  useNewUrlParser: true,
@@ -21,6 +22,7 @@ app.get("/", (req, resp) => {
 
 const Ippopay =  require('./models/Ippopay');
 
+// Save the input & output for Question 2
 app.post("/save", async (req, resp) => {
 	try {
 		const response = await Ippopay.create({
@@ -32,6 +34,8 @@ app.post("/save", async (req, resp) => {
 	}
 });
 
+
+// get all saved input & output for question 2
 app.get("/get", async (req, resp) => {
 	try {
 		const response = await Ippopay.find({})
