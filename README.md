@@ -15,10 +15,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -42,7 +38,7 @@ Goto server folder and run below command.
 Runs the app in the development mode.\
 Server runs in port 5000 [http://localhost:5000].
 
-## __test__ folder contains all test suites.
+## Test suites.
 
 This app uses @testing-library/jest-dom to create and run unit test cases for all the componets, to run the test suites ,
 execute the below command in root directory. It will show the test results with code coverage.
